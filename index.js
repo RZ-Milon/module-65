@@ -11,11 +11,11 @@ app.use(cors());
 app.use(express.json());
 
 // user: dbUser2
-// password: cWmhfxkfvaigwn8z
+// password: AMScctKKdVluaYFO
 
 
 
-const uri = "mongodb+srv://dbUser2:cWmhfxkfvaigwn8z@cluster0.te4s04i.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://dbUser2:AMScctKKdVluaYFO@cluster0.te4s04i.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run(){
@@ -31,7 +31,7 @@ async function run(){
 
     }
     finally{
-        
+
     }
 }
 
